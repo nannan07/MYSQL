@@ -1,73 +1,13 @@
 <div id="img-content">
 	<h2 class="rich_media_title" id="activity-name">详解 MYSQL JOIN</h2>
-	<div id="meta_content" class="rich_media_meta_list">
-		<span class="rich_media_meta rich_media_meta_nickname" id="profileBt">
-			<a href="javascript:void(0);" id="js_name"> 数据分析与开发 </a>
-			<div id="js_profile_qrcode" class="profile_container"
-				style="display: none;">
-				<div class="profile_inner">
-					<strong class="profile_nickname">数据分析与开发</strong> 
-                    <img class="profile_avatar" id="js_profile_qrcode_img" src="" alt="">
-					<p class="profile_meta">
-						<label class="profile_meta_label">微信号</label> <span
-							class="profile_meta_value">DBDevs</span>
-					</p> 
-					<p class="profile_meta">
-						<label class="profile_meta_label">功能介绍</label> <span
-							class="profile_meta_value">伯乐在线旗下账号，分享数据分析与开发相关技术文章、教程、工具。</span>
-					</p> 
-				</div>
-				<span class="profile_arrow_wrp" id="js_profile_arrow_wrp"> <i
-					class="profile_arrow arrow_out"></i> <i
-					class="profile_arrow arrow_in"></i>
-				</span>
-			</div>
-		</span> <em id="publish_time" class="rich_media_meta rich_media_meta_text">8月6日</em>
-	</div>
 	<div class="rich_media_content " id="js_content">
-		<p
-			style="white-space: normal; max-width: 100%; min-height: 1em; color: rgb(51, 51, 51); text-align: center;">
-			<span
-				style="max-width: 100%; font-size: 14px; color: rgb(255, 0, 0); line-height: 25.6px; box-sizing: border-box !important; word-wrap: break-word !important;">（点击</span><span
-				style="max-width: 100%; font-size: 14px; line-height: 25.6px; color: rgb(0, 82, 255); box-sizing: border-box !important; word-wrap: break-word !important;">上方蓝字</span><span
-				style="max-width: 100%; font-size: 14px; color: rgb(255, 0, 0); line-height: 25.6px; box-sizing: border-box !important; word-wrap: break-word !important;">，快速关注我们）</span>
-		</p>
-		<p
-			style="white-space: normal; max-width: 100%; min-height: 1em; color: rgb(51, 51, 51);">
-			<span
-				style="max-width: 100%; text-align: center; color: rgb(255, 0, 0); line-height: 25.6px; font-size: 14px; box-sizing: border-box !important; word-wrap: break-word !important;"><br
-				style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;"></span>
-		</p>
-		<blockquote style="white-space: normal; max-width: 100%;">
-			<p
-				style="max-width: 100%; min-height: 1em; box-sizing: border-box !important; word-wrap: break-word !important;">
-				<span
-					style="max-width: 100%; font-size: 14px; color: rgb(51, 51, 51); box-sizing: border-box !important; word-wrap: break-word !important;">来源：llinvokerl</span>
-			</p>
-			<p
-				style="color: rgb(51, 51, 51); max-width: 100%; min-height: 1em; box-sizing: border-box !important; word-wrap: break-word !important;">
-				<span
-					style="max-width: 100%; font-size: 14px; box-sizing: border-box !important; word-wrap: break-word !important;">segmentfault.com/a/1190000015572505</span>
-			</p>
-		</blockquote>
-		<p style="white-space: normal;">
-			<br
-				style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;">
-		</p>
-		<h4
-			style="margin-bottom: 1rem; font-size: 18px; max-width: 100%; box-sizing: border-box;">
-			<span
-				style="max-width: 100%; color: rgb(204, 0, 0); box-sizing: border-box !important; word-wrap: break-word !important;"><strong
-				style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;">0
-					索引</strong></span>
+		<h4 tyle="margin-bottom: 1rem; font-size: 18px; max-width: 100%; box-sizing: border-box;">
+			<span style="max-width: 100%; color: rgb(204, 0, 0); box-sizing: border-box !important; word-wrap: break-word !important;">
+				<strong style="max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;">
+					1 索引</strong></span>
 		</h4>
 		<ul class="list-paddingleft-2" style="list-style-type: square;">
-			<li><p
-					style="max-width: 100%; min-height: 1em; box-sizing: border-box !important; word-wrap: break-word !important;">
-					<span
-						style="max-width: 100%; box-sizing: border-box; color: rgb(74, 74, 74); line-height: 22px; word-wrap: break-word !important; font-size: 14px !important;"><strong
-						style="max-width: 100%; box-sizing: border-box; color: rgb(0, 0, 0); word-wrap: break-word !important;">JOIN</strong>语句的执行顺序</span>
-				</p></li>
+			<li><p style="max-width: 100%; min-height: 1em; box-sizing: border-box !important; word-wrap: break-word !important;"> <span style="max-width: 100%; box-sizing: border-box; color: rgb(74, 74, 74); line-height: 22px; word-wrap: break-word !important; font-size: 14px !important;"><strong style="max-width: 100%; box-sizing: border-box; color: rgb(0, 0, 0); word-wrap: break-word !important;">JOIN</strong>语句的执行顺序</span> </p></li>
 			<li><p
 					style="max-width: 100%; min-height: 1em; box-sizing: border-box !important; word-wrap: break-word !important;">
 					<span
